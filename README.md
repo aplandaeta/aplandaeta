@@ -1,4 +1,4 @@
-![Scary monsters...](4ff07986208593.5d9a654e92f36.gif)
+![Pondering...my future purchase](pondering-the-orb.gif)
 
 ## Hello you~ I'm Antonia Landaeta 👋
 
