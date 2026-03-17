@@ -9,6 +9,7 @@
 
 ### **Languages**
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue)
+<img alt="Static Badge" src="https://img.shields.io/badge/R-skyblue?style=flat&logo=r&logoColor=white&logoSize=auto">
 
 ### **Libraries**
 ![Numpy](https://img.shields.io/badge/Numpy-777BB4?style=flat-square&logo=numpy&logoColor=white])
