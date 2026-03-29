@@ -1,0 +1,29 @@
+@prefix ex:   <http://www.example.org/antonia-landaeta#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd:   <http://www.wikidata.org/entity/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# Subclase
+ex:Estudiante rdfs:subClassOf foaf:Person;
+    rdfs:label "Estudiante"@es ;
+    rdfs:comment "Representa a una persona matriculada en una institución educativa."@es .
+
+# Propiedad
+ex:estudiaEn a rdfs:Property ;
+    rdfs:domain ex:Estudiante ;
+    rdfs:range rdfs:Resource .
+
+# mis datos
+<http://www.example.org/antonia-landaeta> a ex:Estudiante ;
+    foaf:name "Antonia Landaeta" ;
+    foaf:mbox <mailto:antonia.landaeta@ug.uchile.cl> ;
+    foaf:depiction <https://giphy.com/gifs/tomato-throw-cat-7vGrRUwK2pAEqKZXKE/giphy.gif>;
+    foaf:homepage <https://www.linkedin.com/in/antonia-landaeta-riquelme-2467352a6/> ;
+    foaf:knows <http://www.example.org/>;
+    ex:estudiaEn wd:Q232141 .
+
+# universidad
+wd:Q232141 rdfs:label "Universidad de Chile"@es ;
+    rdfs:label "University of Chile"@en ;
+    rdfs:comment "La mejor universidad de chile <333"@es .
