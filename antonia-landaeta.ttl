@@ -5,7 +5,7 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
 # Subclase
-ex:Estudiante rdfs:subClassOf foaf:Person;
+ex:Estudiante rdfs:subClassOf foaf:Person ;
     rdfs:label "Estudiante"@es ;
     rdfs:comment "Representa a una persona matriculada en una institución educativa."@es .
 
@@ -20,7 +20,7 @@ ex:estudiaEn a rdfs:Property ;
     foaf:mbox <mailto:antonia.landaeta@ug.uchile.cl> ;
     foaf:depiction <https://giphy.com/gifs/tomato-throw-cat-7vGrRUwK2pAEqKZXKE/giphy.gif>;
     foaf:homepage <https://www.linkedin.com/in/antonia-landaeta-riquelme-2467352a6/> ;
-    foaf:knows <http://www.example.org/>;
+    foaf:knows <http://www.example.org/matias-carvajal> ;
     ex:estudiaEn wd:Q232141 .
 
 # universidad
